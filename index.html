@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GDSC DJSCE</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="gdsc.css" />
+    <link
+      rel="shortcut icon"
+      href="/favicon_io/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container-fluid">
+        <img src="pngaaa.com-2804704.png" class="logo" alt="" />
+        <a class="navbar-brand" href="#">GDSC DJSCE</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Events</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <input type="checkbox" onclick="myFunction()" id="dark-mode">
+              <label for="dark-mode"></label>
+              <div class="background"></div>
+              <!-- <button class="btn btn-primary" id="skinToggler" onclick="myFunction()">Toggle skin</button> -->
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="carou">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <!-- <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div> -->
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="4000">
+            <img
+              src="https://gdsc-djsce.netlify.app/static/media/Flutter.a659fdb8919161df7056.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <div class="upp">
+                <p class="headi">
+                  Getting Started With Flutter - Flutter Festival GDSC DJSCE
+                </p>
+                <p class="fe">Featured</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img
+              src="https://gdsc-djsce.netlify.app/static/media/CODESHASTRA_8.0.4d25d22736b04ea99f53.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <div class="upp">
+                <p class="headi">Code Shastra 8.0</p>
+                <p class="fe re">Upcoming</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="btn-grp">
+      <div class="btn-grp row">
+        <div class="col-4">
+            <button class="btn btn-primary">All</button>
+        </div>
+        <div class="col-4">
+            <button class="btn btn-primary">Sessions</button>
+        </div>
+        <div class="col-4">
+            <button class="btn btn-primary">Festivals</button>
+        </div>
+    </div>
+    
+    </section>
+
+    <!-- <div class="container">
+      <div class="row row-cols-3">
+        <div class="card" style="width: 22rem;height: 21rem;;"">
+          <img
+            src="https://gdsc-djsce.netlify.app/static/media/CODESHASTRA_8.0.4d25d22736b04ea99f53.png"
+            class="card-img-top"
+            alt="..." style="height: 12rem;"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="container my-3">
+      <div class="row my-3">
+        <div class="col-md-4 mb-3 my-3" >
+          <div class="card" style="width: 22rem; height: 21rem">
+            <img
+              src="https://gdsc-djsce.netlify.app/static/media/CODESHASTRA_8.0.4d25d22736b04ea99f53.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 12rem"
+            />
+            <div class="card-body">
+              <div class="card-t">
+                <p class="card-text">
+                  <a href="">Code Shastra 8.0 </a><br />
+                  Mar 26-27, 2022
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3 my-3">
+          <div class="card" style="width: 22rem; height: 21rem">
+            <img
+              src="https://gdsc-djsce.netlify.app/static/media/Flutter.a659fdb8919161df7056.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 12rem"
+            />
+            <div class="card-body">
+              <div class="card-t">
+                <p class="card-text">
+                  <a href="">Getting Started With Flutter</a> - <br />Flutter
+                  Festival GDSC DJSCE
+                  <br />
+                  Mar 1, 2022 Speaker Session / Tech Talk - <br />Virtual
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3 my-3">
+          <div class="card" style="width: 22rem; height: 21rem">
+            <img
+              src="3.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 12rem; object-fit: cover"
+            />
+            <div class="card-body">
+              <div class="card-t">
+                <p class="card-text">
+                  <a href="">Android Study Jams 2021 - </a><br />Session 3
+                  <br />
+
+                  Dec 11, 2021 <br />
+
+                  Android Study Jams: Prior <br />Programming Experience -
+                  <br />
+                  Virtual
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-3 my-3">
+          <div class="card" style="width: 22rem; height: 21rem">
+            <img
+              src="3.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 12rem; object-fit: cover"
+            />
+            <div class="card-body">
+              <div class="card-t">
+                <p class="card-text">
+                  <a href="">Android Study Jam Session 2:</a> <br />
+                  Build app from scratch <br />
+
+                  Dec 6, 2021 <br />
+
+                  Android Study Jams: New to <br />
+                  Programming - Virtual
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3 my-3">
+          <div class="card" style="width: 22rem; height: 21rem">
+            <img
+              src="3.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 12rem; object-fit: cover"
+            />
+            <div class="card-body">
+              <div class="card-t">
+                <p class="card-text">
+                  <a href="">Android Study Jam Session 2: </a><br />
+                  Build app from scratch <br />
+
+                  Dec 6, 2021 <br />
+
+                  Android Study Jams: New to <br />
+                  Programming - Virtual
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3 my-3">
+          <div class="card" style="width: 22rem; height: 21rem">
+            <img
+              src="https://gdsc-djsce.netlify.app/static/media/Cover_WMPMb81.0e7ad777d480dcacb949.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 12rem; object-fit: cover"
+            />
+            <div class="card-body">
+              <div class="card-t">
+                <p class="card-text">
+                  <a href="">PixelHacks</a> <br />
+
+                  Nov 29, 2021 <br />
+
+                  Speaker Session / Tech Talk - <br />
+                  Virtual
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-3 my-3">
+          <div class="card" style="width: 22rem; height: 21rem">
+            <img
+              src="https://gdsc-djsce.netlify.app/static/media/openSource.83dc0829d96e72a6364c.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 12rem"
+            />
+            <div class="card-body">
+              <div class="card-t">
+                <p class="card-text">
+                  <a href="">Open Source 101 </a><br />
+
+                  Oct 23, 2021 <br />
+
+                  Speaker Session / Tech Talk - <br />
+                  Virtual
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3 my-3">
+          <div class="card" style="width: 22rem; height: 21rem">
+            <img
+              src="https://gdsc-djsce.netlify.app/static/media/kickstart.18f244187f66b7aef5e5.png "
+              class="card-img-top"
+              alt="..."
+              style="height: 12rem"
+            />
+            <div class="card-body">
+              <div class="card-t">
+                <p class="card-text">
+                  <a href="">A Kickstart to Google Cloud </a><br />
+
+                  Sep 27, 2021 <br />
+
+                  Speaker Session / Tech Talk - <br />
+                  Virtual
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="footer" id="footer">
+        <div class="left">
+          <img
+            src="https://gdsc-djsce.netlify.app/static/media/GDSC___DJSCE.1f798331d8f44334dca6.png"
+            alt=""
+          />
+        </div>
+        <div class="middle">
+          <h3>Community</h3>
+            <ul>
+              <li class="foot-links">About Us</li>
+              <li class="foot-links">Team</li>
+              <li class="foot-links">Upcoming Events</li>
+            </ul>
+        </div>
+        <div class="right">
+          <h3>Follow Us</h3>
+          <ul>
+            <li class="foot-links">Instagram</li>
+            <li class="foot-links">LinkedIn</li>
+          </ul>
+        </div>
+      </div>
+      <div class="last" id="last">
+        <p style="text-align: center; margin-bottom: 0;">© GDSC DJSCE 2022</p>       
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="gdsc.js"></script>
+  </body>
+</html>
